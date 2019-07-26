@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text} from 'react-native';
 import htmlparser from 'htmlparser2-without-node-native';
-import entities from 'entities';
+import * as entities from 'entities';
 
 import AutoSizedImage from './AutoSizedImage';
 
